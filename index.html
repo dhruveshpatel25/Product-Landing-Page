@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="icon" href="Images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="Images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>OnePlus Nord Buds E505A <br> It's <span> Beast.</span></h2>
+                <p>The OnePlus Nord Buds E505A TWS Earbuds with AI Noise Cancellation are stylish and powerful wireless earbuds that feature IP55 water resistance, thundering bass, and a sleek Black Slate color. With their AI Noise Cancellation technology, these earbuds effectively block out background noise, delivering crystal-clear sound quality. They offer a comfortable fit, customizable ear tips, and touch controls for easy use. The earbuds provide impressive battery life and come with a charging case for on-the-go charging. Overall, the OnePlus Nord Buds E505A TWS Earbuds provide an immersive and enjoyable listening experience for music lovers and active individuals alike.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgbox">
+                <img src="Images/product_1.png" class="earphones">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="Images/product_1.png" onclick ="imgSlider('Images/product_1.png');changeCircleColor('#FF5733')"></li>
+            <li><img src="Images/product_2.png" onclick ="imgSlider('Images/product_2.png');changeCircleColor('#D3D3D3')"></li>
+            <li><img src="Images/product_3.png" onclick ="imgSlider('Images/product_3.png');changeCircleColor('#449988')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="Images/instagram.png"></a></li>
+            <li><a href="#"><img src="Images/facebook.png"></a></li>
+            <li><a href="#"><img src="Images/twitter.png"></a></li> 
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
